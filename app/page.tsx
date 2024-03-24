@@ -1,8 +1,17 @@
+import Camp from '@/components/Camp';
+import Features from '@/components/Features';
+import FontPage from '@/components/FontPage';
+import GetApp from '@/components/GetApp';
+import Guide from '@/components/Guide';
+
 export default function Home() {
   return (
-    
-    <h1 className="font-bod text-teal-500">
-      Hello World
-    </h1>
+    <>
+      <FontPage />
+      <Camp />
+      <Guide />
+      <Features />
+      <GetApp />
+    </>
   );
 }
