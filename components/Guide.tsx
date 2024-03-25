@@ -4,12 +4,7 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div className="padding-container max-container w-full pb-24">
-        <Image
-          src="/camp.svg"
-          alt="camp"
-          width={50}
-          height={50}
-        />
+        <Image src="/camp.svg" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
           we are here for you
         </p>
@@ -18,17 +13,10 @@ const Guide = () => {
             Guide You Easy Path
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Only with the hilink
-            application you will no
-            longer get lost and get lost
-            again, because we already
-            support offline maps when
-            there is no internet
-            connection in the field.
-            Invite your friends,
-            relatives and friends to
-            have fun in the wilderness
-            through the valley and reach
+            Only with the hilink application you will no longer get lost and get
+            lost again, because we already support offline maps when there is no
+            internet connection in the field. Invite your friends, relatives and
+            friends to have fun in the wilderness through the valley and reach
             the top of the mountain
           </p>
         </div>
@@ -56,24 +44,14 @@ const Guide = () => {
           <div className="flexBetween flex-col">
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
-                <p className="regular-16 text-grey-20 pr-4">
-                  Destination
-                </p>
-                <p className="bold-16 text-green-50">
-                  2days
-                </p>
+                <p className="regular-16 text-grey-20 pr-4">Destination</p>
+                <p className="bold-16 text-green-50">2days</p>
               </div>
-              <p className="bold-20 mt-2">
-                Karisimbi
-              </p>
+              <p className="bold-20 mt-2">Karisimbi</p>
             </div>
             <div className="flex w-full flex-col">
-              <p className="regular-16 text-grey-20">
-                Start track
-              </p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">
-                Mount Bisoke
-              </h4>
+              <p className="regular-16 text-grey-20">Start track</p>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Mount Bisoke</h4>
             </div>
           </div>
         </div>

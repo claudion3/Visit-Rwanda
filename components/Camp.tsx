@@ -16,30 +16,21 @@ const CampSite = ({
 }: CampSiteProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px] 
+      className={`h-full w-full min-w-[1100px]
       bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl
       ${backgroundImage}`}
     >
       <div
-        className="flex h-full flex-col items-start justify-between 
+        className="flex h-full flex-col items-start justify-between
       p-6 lg:px-20 lg:py-10"
       >
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
-            <Image
-              src="/folded-map.svg"
-              alt="map"
-              width={28}
-              height={28}
-            />
+            <Image src="/folded-map.svg" alt="map" width={28} height={28} />
           </div>
           <div className="flex flex-col gap-1">
-            <h4 className="bold-18 text-white">
-              {title}
-            </h4>
-            <p className="regular-14 text-white">
-              {subtitle}
-            </p>
+            <h4 className="bold-18 text-white">{title}</h4>
+            <p className="regular-14 text-white">{subtitle}</p>
           </div>
         </div>
         <div className="flexCenter gap-6">
@@ -55,9 +46,7 @@ const CampSite = ({
               />
             ))}
           </span>
-          <p className="bold-16 md:bold-20 text-white">
-            {peopleJoined}
-          </p>
+          <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
         </div>
       </div>
     </div>
@@ -94,20 +83,12 @@ const Camp = () => {
         xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl"
         >
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalized text-white">
-            <strong>
-              Feeling Lost
-            </strong>{' '}
-            and Not Knowing The way?
+            <strong>Feeling Lost</strong> and Not Knowing The way?
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
-            String from the anxiety of
-            the climbers when visiting a
-            new climbing location, the
-            possibility of getting lost
-            is very large. That's why we
-            are here for those of you
-            who want to start an
-            adventure
+            String from the anxiety of the climbers when visiting a new climbing
+            location, the possibility of getting lost is very large. That's why
+            we are here for those of you who want to start an adventure
           </p>
           <Image
             src="/quote.svg"
